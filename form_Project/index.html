@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forum website Registration</title>
+	<meta charset="UTF-8"> <!-- Covers all characters and symbols-->
+	<meta name="description" content="HTML Dice Simulation"> <!-- Descrption of your webpage-->
+	<meta name="keywords" content="HTML, dice, simulator"> <!--Keywords for search purposes-->
+	<meta name="author" content="Ralph Ayala Jr">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0"> 
+	<!--Viewing this page on a mobile device will allow the screen to scale with said device-->
+	
+</head>
+<style>
+div {
+  background-color: grey;
+  color: White;
+  font-size: 160%;
+  padding: 16px 20px; <!-- Align the form with the page-->
+}
+</style>
+<body>
+
+<form action="second_Page.html" method="POST"> <!-- URL to page two. -->
+
+<div>
+<h1>Registation form for your new bank account.</h1>
+
+<p>Please fill in the form below.</p> 
+
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname" maxlength=9 autocomplete="off" required><br> 
+	
+	<br>
+	
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lname" maxlength=8 autocomplete="off" required ><br> 
+	
+	<br>
+	
+	<label for="email">Email:</label><br>
+	<input type="email" id="email" name="email" required><br>
+	
+	<br>
+	
+	<label for="phone">Phone #:</label><br>
+	<input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" maxlenght=10 required><br>
+	
+	<br>
+	
+	<label for="bdate">Birthdate:</label><br>
+	<input type="date" id="bdate" name="bdate" required><br>
+	
+	<br>
+	
+	<label for="user">Username:</label><br>
+	<input type="username" id="user" name="user" placeholder="username" maxlength=8 required><br>
+	
+	<br>
+	
+	<label for="pass">Password:</label><br>
+	<input type="password" id="pass" name="pass" placeholder="password" maxlength=8 required><br>
+	
+	<br>
+	
+	<label for="agree">Do you agree with our terms of service?</label>
+	<input type="checkbox" id="agree" name="agree" required><br>
+
+	<br>
+	
+	<button type="submit">Sign up</button>
+	
+	
+</form>
+</div>
+</body>
+</html>
