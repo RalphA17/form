@@ -1,7 +1,7 @@
 
 #This is project is just a simple form that I created during my own time. 
 
-#This project gest the user's infomation. 
+#This project gets the user's infomation. 
 
 #Just follow the instructions of what the questions ask from you. 
 
